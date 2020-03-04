@@ -37,9 +37,6 @@ is a fully managed workflow orchestration service built on Apache Airflow [Cloud
 is a fully managed cloud service for running Apache Spark, Apache Hive and Apache Hadoop [Dataproc page]. Some features are easy deployment and scaling, integration with Cloud Composer (Airflow) and a feature we’ll be using here is create automatically a Dataproc cluster just for processing and then destroy so you will pay for minutes and avoid unused infrastructure.
 
 ## Code
-This part will be from a simple Airflow workflow to the complex workflow needed for our objective.
-Simple DAG
-Everyone starts learning to program with a Hello World! so let's do the same but in Airflow.
 Writing an Airflow workflow almost follow these 6 steps
 Imports libraries Airflow, DateTime and others
 Define a start date of the workflow
